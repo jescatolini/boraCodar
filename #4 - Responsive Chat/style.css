@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+  --base:245;
+  --bg-color: hsla(var(--base), 18%, 12%, 1);
+  --bg-msg-you:hsla(var(--base), 20%, 27%, 1);
+  --bg-msg:hsla(var(--base), 52%, 48%, 1);
+  --fc-msg:hsla(var(--base), 9%, 89%, 1);
+  font-size: 62.5%
+}
+body, input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: var(--bg-color);
+}
+p, h1, h4{
+  color: var(--fc-msg);
+}
+
+#app{
+  display: grid;
+  grid-gap: 3.0rem;
+  padding: clamp(2.4rem, 2.4rem + 2vw, 3.2rem) clamp(3.2rem, 3.2rem + 4vw, 7.2rem);
+  margin-bottom: 5rem;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 3.0rem;
+  animation: slide-top 3s ease;
+}
+nav img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+nav h1 {
+  font-size: 1.6rem;
+}
+nav p {
+  color:#00B37E;
+}
+nav p::before{
+  content: "";
+  display:inline-block;
+  margin-right:0.4rem;
+  width: 8px;
+  height: 8px;
+  background:#00B37E;
+  border-radius: 50%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.date{
+  margin: 0 auto;
+}
+
+.wrapper, .wrapper1 {
+  padding: 3rem 0 0 0;
+  position: relative;
+}
+h4{
+  position: absolute;
+  top: 0;
+}
+.msg{
+  padding: 1.4rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 48%;
+}
+.wrapper1 .msg {
+  background: var(--bg-msg);
+  border-radius: 0px 8px 8px 8px;
+}
+.wrapper .msg {
+  background: var(--bg-msg-you);
+  border-radius: 8px 8px 0px 8px;
+}
+footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  max-width:100%;
+  border-radius: 999px;
+  background: var(--bg-msg-you);
+  padding: 1.4rem 2rem
+}
+svg{
+  cursor: pointer;
+}
+input[type=text]{
+  background:transparent;
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+  color: var(--fc-msg);
+}
+input::placeholder{
+  color: var(--fc-msg);
+}
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media (min-width: 768px){
+  footer {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  left: 3%;
+  }
+}
+
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(50%);transform:translateY(50%); opacity: 0;}100%{-webkit-transform:translateY(0);transform:translateY(0)}}
