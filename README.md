@@ -44,19 +44,19 @@
                 <td>01</td>
                 <td>Music Player</td>
                 <td>11/01/23</td>
-                <td align="center"><a href="#1 - MusicPlayer"><img width="300px" src="#1 - MusicPlayer/.github/preview.JPG" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%231%20-%20MusicPlayer"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%231%20-%20MusicPlayer/.github/preview.JPG" /></a></td>
             </tr>
             <tr>
                 <td>02</td>
                 <td>Product Card</td>
                 <td>18/01/23</td>
-                <td align="center"><a href="#2 - Product Card"><img width="300px" src="#2 - Product Card/.github/preview.jpg" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%232%20-%20Product%20Card"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%232%20-%20Product%20Card/.github/preview.jpg" /></a></td>
             </tr>
             <tr>
                 <td>03</td>
                 <td>Buttons and Cursors</td>
                 <td>25/01/23</td>
-                <td align="center"><a href="#3 -Buttons and Cursors"><img width="300px" src="#3 -Buttons and Cursors/.github/preview.JPG" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%233%20-Buttons%20and%20Cursors"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%233%20-Buttons%20and%20Cursors/.github/preview.JPG" /></a></td>
             </tr>
         </tbody>
     </table>
