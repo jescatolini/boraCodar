@@ -58,5 +58,23 @@
                 <td>25/01/23</td>
                 <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%233%20-Buttons%20and%20Cursors"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%233%20-Buttons%20and%20Cursors/.github/preview.JPG" /></a></td>
             </tr>
+            <tr>
+                <td>04</td>
+                <td>Responsive Chat</td>
+                <td>01/02/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%234%20-%20Responsive%20Chat"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%234%20-%20Responsive%20Chat/.github/preview.png" /></a></td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Calculator</td>
+                <td>08/02/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%235%20-%20Calculator"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%235%20-%20Calculator/.github/preview.png" /></a></td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Boarding Pass</td>
+                <td>15/02/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%236%20-%20Boarding%20Pass"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%236%20-%20Boarding%20Pass/.github/preview.png" /></a></td>
+            </tr>
         </tbody>
     </table>
