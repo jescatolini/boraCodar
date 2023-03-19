@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 720px) {
     .weather {
-        width: 80px;
+        width: 80px;    
         position: absolute;
         margin-top: 0px;
         margin-left: -10px;
