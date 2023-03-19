@@ -88,7 +88,7 @@ function HomePage() {
             humidity={weather?.hourly?.relativehumidity_2m[0]}
             rain={weather?.hourly?.rain[0]}
           />
-          <div className={styles.rightSide}>
+          <div className={styles.rightSide}>  
             <div className={styles.airAndSun}>
               <AirCard
                 carbon={airQuality?.hourly?.carbon_monoxide[0] || ""}
