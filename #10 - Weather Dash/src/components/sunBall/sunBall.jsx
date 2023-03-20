@@ -12,7 +12,7 @@ const Ball = ({ sunset, sunrise, currentTime }) => {
                 parseInt(sunset.split(":")[0]) -
                 parseInt(sunrise.split(":")[0]);
 
-            const currentHour =
+            const currentHour = 
                 parseInt(currentTime.split(":")[0]) -
                 parseInt(sunrise.split(":")[0]);
 
