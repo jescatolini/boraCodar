@@ -8,7 +8,7 @@ export default function AirCard({
     pm2_5,
     pm10,
     sulphur,
-    europeanEvaluation,
+    europeanEvaluation, 
 }) {
     const airQuality = (europeanEvaluation) => {
         switch (true) {
