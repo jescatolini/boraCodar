@@ -8,7 +8,7 @@ export default function DegreeCard({
     actualTemperature,
     maxTemperature,
     minTemperature,
-    wind,
+    wind,   
     humidity,
     rain,
 }) {
