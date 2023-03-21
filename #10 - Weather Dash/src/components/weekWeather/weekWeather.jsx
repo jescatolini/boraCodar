@@ -10,7 +10,7 @@ export default function WeekWeather({
     maxWeeklyTemperature,
 }) {
     const weekDays = [
-        "Domingo",
+        "Domingo",  
         "Segunda",
         "Terça",
         "Quarta",
