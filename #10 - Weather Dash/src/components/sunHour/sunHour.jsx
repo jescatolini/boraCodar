@@ -13,7 +13,7 @@ export default function ({ sunset, sunrise, currentTime }) {
             <div className={styles.baseSunTime}>
                 <div>{sunrise}</div>
                 <div>{sunset}</div>
-            </div>
+            </div>  
         </div>
     );
 }
