@@ -23,7 +23,7 @@ body {
   place-content: center;
 }
 
-.grid {
+.grid { 
   display: grid;
 }
 
