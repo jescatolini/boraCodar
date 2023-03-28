@@ -27,7 +27,7 @@ const calculate = () => {
       calculation.innerHTML = previousNumber + operator + createCurrent;
       updateDisplay(result);
     }
-  }
+  } 
 };
 
 const updateDisplay = text => {
