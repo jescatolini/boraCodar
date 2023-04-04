@@ -12,7 +12,7 @@ export const startFakeApi = async (): Promise<void> => {
       ...column,
       tasks: column.tasks.filter((task) => !!task),
     }));
-    localStorage.setItem("kanbanColumns", JSON.stringify(columnNonNullable));
+    localStorage.setItem("kanbanColumns", JSON.stringify(columnNonNullable)); 
     return;
   }
   localStorage.setItem("kanbanColumns", JSON.stringify(MockColumns));
