@@ -22,7 +22,7 @@ function KanbanPage() {
           </div>
         );
       case TABS.REPORTS:
-        return (
+        return (  
           <div className={styles.soon}>
             <h1>Em Breve!</h1>
             <IoConstruct size={96} color={colors.darkBrown} />
