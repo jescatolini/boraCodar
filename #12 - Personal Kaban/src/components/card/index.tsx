@@ -34,7 +34,7 @@ function Card({
         <div className={styles.buttonsContainer}>
           <Button
             variant="text"
-            style={{ height: "24px", width: "24px" }}
+            style={{ height: "24px", width: "24px" }} 
             className={styles.editButton}
             icon={<HiPencil size={20} color={colors.darkPurple} />}
             onClick={() => {
