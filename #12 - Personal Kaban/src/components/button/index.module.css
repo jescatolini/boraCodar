@@ -1,6 +1,6 @@
 .button {
   border: none;
-  outline: transparent;
+  outline: transparent; 
   border-radius: 0.5rem;
   color: var(--white);
 
