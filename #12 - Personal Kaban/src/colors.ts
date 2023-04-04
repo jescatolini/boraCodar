@@ -4,7 +4,7 @@ export default {
   darkPurple: "var(--dark-purple)",
   purple: "var(--purple)",
   lightPurple: "var(--light-purple)",
-  darkGray: "var(--dark-gray)",
+  darkGray: "var(--dark-gray)", 
   gray: "var(--gray)",
   lightGray: "var(--light-gray)",
   lighterGray: "var(--lighter-gray)",
