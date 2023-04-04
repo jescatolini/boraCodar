@@ -3,7 +3,7 @@ import { ButtonHTMLAttributes, BaseSyntheticEvent } from "react";
 import styles from "./index.module.css";
 
 type Props = ButtonHTMLAttributes<HTMLElement> & {
-  icon?: React.ReactElement;
+  icon?: React.ReactElement;  
   iconPosition?: "left" | "right";
   text?: string;
   variant?: "default" | "text";
