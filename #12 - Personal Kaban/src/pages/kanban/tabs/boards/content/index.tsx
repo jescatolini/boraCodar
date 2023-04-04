@@ -6,7 +6,7 @@ import {
   DragDropContext,
   Draggable,
   Droppable,
-  OnDragEndResponder,
+  OnDragEndResponder, 
 } from "react-beautiful-dnd";
 
 import Profile from "../../../../../assets/profile.jpeg";
