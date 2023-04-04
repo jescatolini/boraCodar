@@ -4,7 +4,7 @@ import { DropResult } from "react-beautiful-dnd";
 import Content from "./content";
 
 import {
-  editCard,
+  editCard, 
   listColumns,
   listTags,
   removeCard,
