@@ -18,7 +18,7 @@ type Props = {
     title: string;
     description: string;
     tags: string[];
-  };
+  };  
   onCancelEdition: () => void;
   onSave: (payload: EditCardPayload, columnId: string) => Promise<void>;
 };
