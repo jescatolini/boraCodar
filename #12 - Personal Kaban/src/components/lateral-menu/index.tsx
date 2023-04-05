@@ -12,7 +12,7 @@ import colors from "../../colors";
 import { Tabs } from "../../types";
 import { TABS } from "../../enums";
 
-type Props = {
+type Props = {  
   currentTab: Tabs;
   onTabChange: (tab: Tabs) => void;
 };
