@@ -23,7 +23,7 @@
   border-width: 0;
 }
 
-.btn {
+.btn {  
   display: flex;
   justify-content: center;
   align-items: center;
