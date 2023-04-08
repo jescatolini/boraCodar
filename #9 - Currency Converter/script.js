@@ -6,7 +6,7 @@ const options = {
         {
           x: new Date("2018-02-12").getTime(),
           y: 5.18,
-        },
+        },  
         {
           x: new Date("2018-02-13").getTime(),
           y: 5.3,
