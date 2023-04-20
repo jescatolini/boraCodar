@@ -1,0 +1,317 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
+
+    height: 100dvh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 32px 32px;
+    gap: 10px;
+
+    width: 24rem;
+    height: 30.375rem;
+
+    background: var(--white);
+
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+}
+
+.card:hover {
+    border: 1px solid var(--purple-100);
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.cardMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 32px 32px;
+    gap: 10px;
+
+    width: 24rem;
+    height: 30.375rem;
+
+    background: var(--gray-900);
+
+    border-radius: 10px;
+}
+
+.cardMiddle:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.titleCard {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--purple-200);
+}
+
+.nameProduct {
+    color: var(--gray-800);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.25rem;
+}
+
+.nameProductMiddle {
+    color: var(--gray-50);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.25rem;
+}
+
+.titleProduct {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.0625rem;
+}
+
+.priceProduct {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+}
+
+.buttonSign {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 320px;
+    height: 56px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    border: 1px solid var(--gray-800);
+    border-radius: 4px;
+
+    background-color: transparent;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--gray-800);
+
+    cursor: pointer;
+}
+
+.buttonSign:hover {
+    transition: all 0.5s ease;
+    background-color: var(--gray-800);
+    color: var(--white);
+}
+
+.buttonSignMiddle {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 320px;
+    height: 56px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    border-radius: 4px;
+    border: transparent;
+
+    background-color: var(--purple-100);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--white);
+
+    cursor: pointer;
+}
+
+.buttonSignMiddle:hover {
+    background: var(--purple-200);
+}
+
+.divider {
+    width: 320px;
+    height: 0px;
+
+    border: 1px solid var(--gray-200);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.eachFeature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.featuresDescription {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.06em;
+
+    color: var(--gray-600);
+}
+
+.featuresDescriptionMiddle {
+    display: flex;
+    gap: 0.5rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.06em;
+
+    color: var(--gray-300);
+}
+
+.goldenBadge {
+    background-color: var(--orange);
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 95px;
+    z-index: 1;
+    padding: 8px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gray-900);
+}
+
+@media screen and (max-width: 1250px) {
+    .goldenBadge {
+        margin-left: 72px;
+    }
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 5rem;
+    }
+
+    .card {
+        padding: 24px;
+        gap: 10px;
+        width: 320px;
+        height: 20.125rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .cardMiddle {
+        padding: 40px 24px 24px;
+        gap: 10px;
+        width: 320px;
+        height: 25.625rem;
+        position: relative;
+    }
+
+    .nameProduct {
+        gap: 3.0625rem;
+    }
+
+    .nameProductMiddle {
+        gap: 3.0625rem;
+    }
+
+    .titleProduct {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .priceProduct {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    .buttonSign {
+        padding: 16px 24px;
+        gap: 10px;
+
+        width: 272px;
+        height: 56px;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .buttonSignMiddle {
+        padding: 16px 24px;
+        gap: 10px;
+
+        width: 272px;
+        height: 56px;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .divider {
+        width: 272px;
+        height: 0px;
+    }
+
+    .features {
+        margin-top: 1rem;
+        width: 272px;
+        height: 64px;
+    }
+
+    .eachFeature {
+        padding: 0px;
+        gap: 11px;
+
+        width: 272px;
+        height: 24px;
+    }
+}
