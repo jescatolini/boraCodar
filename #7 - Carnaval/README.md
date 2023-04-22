@@ -33,8 +33,9 @@ You can select the most visited states during Carnival.
 </p>
 
 >## 🎥 Video Demo
-
-https://user-images.githubusercontent.com/99694816/233803549-e7d8b37c-6e03-423b-b49f-ec30cb29d7eb.gif
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99694816/233803549-e7d8b37c-6e03-423b-b49f-ec30cb29d7eb.gif" alt="GIF project version" height="570">
+</p>
 
 
 ## 🛠 Technologies
