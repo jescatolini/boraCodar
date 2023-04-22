@@ -76,5 +76,11 @@
                 <td>15/02/23</td>
                 <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%236%20-%20Boarding%20Pass"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%236%20-%20Boarding%20Pass/.github/preview.png" /></a></td>
             </tr>
+            <tr>
+                <td>07</td>
+                <td>Carnaval</td>
+                <td>22/02/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%236%20-%20Carnaval%20Pass"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%237%20-%20Carnaval/.github/preview.png" /></a></td>
+            </tr>
         </tbody>
     </table>
