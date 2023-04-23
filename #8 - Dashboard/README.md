@@ -4,7 +4,7 @@
   <a href="https://www.linkedin.com/in/jhonata-escatolini/"><img src="https://img.shields.io/static/v1?label=made%20by&message=Escatolini&color=4B00A8&style=flat"></a>
 </p>
 
-<h1 align="center">🎭🎊 Carnival 🎊🎭</h1>
+<h1 align="center">📈Dashboard📈</h1>
 
 <h2 align="center">
 🔗
@@ -17,24 +17,24 @@
 
 ## 📖 About Project
 
-This website was developed to find Carnival blocks.</br>
-You can select the most visited states during Carnival.
+This site was developed to propose a graphic layout about the company's goals. </br>
+You can see each topic by graph, days occurred, etc.
 
 ## 🎨 Layout
 
 > ### 💻 Desktop
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/99694816/233803266-32788316-99b8-495b-b33b-48ab710b88e4.png" alt="desktop project version" height="570">
+  <img src="https://user-images.githubusercontent.com/99694816/233843061-3b8c236c-c229-41e2-84e3-87b37a9ad42f.png" alt="desktop project version" height="570">
 </p>
 
 > ### 📱 Mobile
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/99694816/233803320-3736527c-51d5-49ba-9c14-97b78f01529a.png" alt="mobile project version" height="570">
+  <img src="https://user-images.githubusercontent.com/99694816/233843138-1d591b98-bdaf-41ec-b87d-da13b0cc1f57.png" alt="mobile project version" height="570">
 </p>
 
 >## 🎥 Video Demo
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/99694816/233803549-e7d8b37c-6e03-423b-b49f-ec30cb29d7eb.gif" alt="GIF project version" height="570">
+  <img src="https://user-images.githubusercontent.com/99694816/233843351-ff52f159-3723-40be-bc6c-54f5616aa282.gif" alt="GIF project version" height="570">
 </p>
 
 
