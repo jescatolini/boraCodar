@@ -80,7 +80,13 @@
                 <td>07</td>
                 <td>Carnaval</td>
                 <td>22/02/23</td>
-                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%236%20-%20Carnaval%20Pass"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%237%20-%20Carnaval/.github/preview.png" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%237%20-%20Carnaval"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%237%20-%20Carnaval/.github/preview.png" /></a></td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Dashboard</td>
+                <td>22/02/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%238%20-%20Dashboard"><img width="300px" src="https://user-images.githubusercontent.com/99694816/233843351-ff52f159-3723-40be-bc6c-54f5616aa282.gif" /></a></td>
             </tr>
         </tbody>
     </table>
