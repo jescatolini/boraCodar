@@ -44,7 +44,7 @@
                 <td>01</td>
                 <td>Music Player</td>
                 <td>11/01/23</td>
-                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%231%20-%20MusicPlayer"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%231%20-%20MusicPlayer/.github/preview.JPG" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%231%20-%20MusicPlayer"><img width="300px" src="https://user-images.githubusercontent.com/99694816/233863112-645ae3d9-70f0-4d75-8585-f46fe40005c0.gif" /></a></td>
             </tr>
             <tr>
                 <td>02</td>
