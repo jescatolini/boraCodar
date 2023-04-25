@@ -50,7 +50,7 @@
                 <td>02</td>
                 <td>Product Card</td>
                 <td>18/01/23</td>
-                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%232%20-%20Product%20Card"><img width="300px" src="https://github.com/jescatolini/boraCodar/blob/main/%232%20-%20Product%20Card/.github/preview.jpg" /></a></td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%232%20-%20Product%20Card"><img width="300px" src="https://user-images.githubusercontent.com/99694816/234294037-d9ad90d0-6b5f-4310-b88f-a6f1e84348a4.gif" /></a></td>
             </tr>
             <tr>
                 <td>03</td>
