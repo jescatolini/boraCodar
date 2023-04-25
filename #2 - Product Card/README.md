@@ -36,7 +36,7 @@ You can click on the 360° button for the product to make a 360° animation.
 
 ## 🎥 Video Demo
 
-https://user-images.githubusercontent.com/99694816/223514922-454bf760-41f3-4b45-91fe-b0f17ace07e7.mp4
+<img src="https://user-images.githubusercontent.com/99694816/234294037-d9ad90d0-6b5f-4310-b88f-a6f1e84348a4.gif" alt="GIF project version" height="570">
 
 ## 🛠 Technologies
 <div align="center"><br/>
