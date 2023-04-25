@@ -88,5 +88,11 @@
                 <td>22/02/23</td>
                 <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%238%20-%20Dashboard"><img width="300px" src="https://user-images.githubusercontent.com/99694816/233843351-ff52f159-3723-40be-bc6c-54f5616aa282.gif" /></a></td>
             </tr>
+            <tr>
+                <td>09</td>
+                <td>Currency Converter</td>
+                <td>08/03/23</td>
+                <td align="center"><a href="https://github.com/jescatolini/boraCodar/tree/main/%239%20-%20Currency%20Converter"><img width="300px" src="https://user-images.githubusercontent.com/99694816/234154779-552e83aa-4bdc-4c75-b06a-0a7812f76c54.gif" /></a></td>
+            </tr>
         </tbody>
     </table>
