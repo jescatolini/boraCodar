@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8022F5&style=flat">
   <img src="https://img.shields.io/static/v1?label=languages&message=3&color=A8A60C&style=flat">
   <a href="https://www.linkedin.com/in/jhonata-escatolini/"><img src="https://img.shields.io/static/v1?label=made%20by&message=Escatolini&color=4B00A8&style=flat"></a>
-</p>
+</p> 
 
 <h1 align="center">💱Currency Converter💱</h1>
 
