@@ -4,7 +4,7 @@
 
 [Access the challenge of the Week by clicking here](https://boracodar.dev)
 
-<table>
+<table> 
         <thead>
         <tr>
             <th align="center">
