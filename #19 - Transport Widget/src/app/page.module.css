@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 56px;
+  gap: 99px;
+}
+
+.barSlide {
+  width: 20vw;
+  height: 17px;
+
+  background: var(--color-pink-50);
+  border-radius: 999px;
+}
