@@ -1,0 +1,19 @@
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: var(--color-purple-400);
+}
+
+.title span {
+  color: var(--color-pink-100);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: var(--color-purple-400);
+}
