@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--white);
+}
+
+.buttonArrow {
+  background: transparent;
+  border: transparent;
+
+  cursor: pointer;
+
+  align-self: flex-start;
+}
