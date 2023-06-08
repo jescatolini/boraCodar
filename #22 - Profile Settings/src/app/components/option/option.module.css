@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  /* margin-bottom: 1rem; */
+
+  width: 20.4375rem;
+  height: 2.25rem;
+
+  cursor: pointer;
+}
+
+.startOption {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container:hover {
+  background: var(--gray-400);
+  border-radius: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
