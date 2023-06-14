@@ -1,0 +1,72 @@
+export const defaultSteps = [
+  {
+    id: 1,
+    stepTitle: "Contato",
+    status: "active",
+    fields: [
+      {
+        name: "personalName",
+        value: "",
+        type: "text",
+        label: "Nome",
+        placeholder: "Como prefere ser chamado",
+      },
+      {
+        name: "telephone",
+        value: "",
+        type: "text",
+        label: "Telefone",
+        placeholder: "Digite seu número de WhatsApp",
+      },
+      {
+        name: "email",
+        value: "",
+        type: "email",
+        label: "E-mail",
+        placeholder: "Digite seu e-mail",
+      },
+    ],
+  },
+  {
+    id: 2,
+    stepTitle: "Empresa",
+    status: "todo",
+    fields: [{
+      name: "companyName",
+      value: "",
+      type: "text",
+      label: "Nome da empresa",
+      placeholder: "Qual é o nome da empresa",
+    },
+    {
+      name: "companySize",
+      value: "",
+      type: "text",
+      label: "Número de funcionários",
+      placeholder: "Digite o número de colaboradores",
+    },
+    {
+      typeElement: "textarea",
+      name: "aboutCompany",
+      value: "",
+      type: "textarea",
+      label: "Sobre seu negócio",
+      placeholder: "Fale um pouco sobre seus produtos ou serviços",
+    },
+  ],
+  },
+  {
+    id: 3,
+    stepTitle: "Projeto",
+    status: "todo",
+    fields: [{
+      typeElement: "textarea",
+      name: "goalProjects",
+      value: "",
+      type: "text",
+      label: "Objetivos do projeto",
+      placeholder: "Descreva quais os objetivos desse projeto",
+    },
+  ],
+  },
+];
