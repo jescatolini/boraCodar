@@ -1,0 +1,70 @@
+.meal {
+  background: #feece0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  padding: 7rem 13.25rem 3.5rem 9.7rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  color: #58190a;
+  font-size: calc(1rem + 6vw);
+  font-family: Source Serif Pro;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #58190a;
+  font-size: calc(1rem + 2vw);
+  font-family: Source Serif Pro;
+  font-weight: 400;
+}
+
+.portions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  color: #9b6647;
+  font-size: calc(1rem + 2vw);
+  font-family: Source Serif Pro;
+  font-weight: 400;
+}
+
+.buttonPortion {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.buttonPortion:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1020px) {
+  .meal {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 6rem;
+  }
+  .pamonha {
+    width: calc(10rem + 20vw);
+    height: calc(10rem + 20vh);
+  }
+
+  .portions {
+    justify-content: center;
+  }
+}
