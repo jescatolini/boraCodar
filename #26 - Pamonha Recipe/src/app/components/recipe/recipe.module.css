@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.69rem;
+
+  color: #feece0;
+  font-size: 2.375rem;
+  font-family: Source Serif Pro;
+  font-weight: 700;
+}
+
+.list {
+  color: #feece0;
+  font-size: 1.5rem;
+  font-family: Source Serif Pro;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1020px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .list {
+    font-size: 1.5rem;
+  }
+}
