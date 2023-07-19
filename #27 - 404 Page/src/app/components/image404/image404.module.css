@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.planet {
+  animation: spin 5s ease-in-out infinite;
+}
+
+.number {
+  animation: down 1.5s ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .planet {
+    width: calc(8rem + 2vw);
+  }
+  .number {
+    width: calc(4rem + 1vw);
+  }
+}
