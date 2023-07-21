@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-01: #f8fafc;
+  --gray-02: #e2e8f0;
+  --gray-03: #94a3b8;
+  --gray-04: #334155;
+  --gray-05: #1e293b;
+  --gray-06: #0f172a;
+  --gray-07: #020617;
+}
+
+body {
+  background: url("../../public/imgbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
