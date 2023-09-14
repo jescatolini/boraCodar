@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  background: url("../../public/background.svg") no-repeat center center;
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  background-size: cover;
+}
+
+:root {
+  --purple-normal: #8860e6;
+  --purple-dark: #5b409b;
+  --gray-dark: #202024;
+  --sucess: #04d361;
+  --danger: #ff8f8f;
+  --linear: linear-gradient(
+    to bottom,
+    #dee0fc 0%,
+    #996dff 51.04%,
+    #bc9fff 100%
+  );
+  --gray-light: #f3f4fe;
+}
+
+.headline-40 {
+  font-size: 40px;
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 130%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.text-18 {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.headline-20 {
+  font-size: 20px;
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background: url("../../public/background.svg") no-repeat center fixed;
+  }
+}
