@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 43rem;
+  background: var(--purple-normal, #8860e6);
+  background-size: cover;
+  padding: 1rem;
+}
+.container {
+  display: flex;
+}
+
+.infosUserTicket {
+  display: inline-flex;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  background: var(--gray-light, #f3f4fe);
+}
+
+.nameAndPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.photo {
+  border-radius: 50%;
+  max-width: 8.75rem;
+  max-height: 8rem;
+}
+
+.crew {
+  color: var(--purple-normal, #8860e6);
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 0.9375rem */
+  letter-spacing: 0.07875rem;
+  text-transform: uppercase;
+}
+
+.username {
+  color: var(--gray-dark, #202024);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 1.25rem */
+  width: 100%;
+}
+
+.eventInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+
+  color: var(--gray-dark, #202024);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 160% */
+  letter-spacing: 0.06563rem;
+  text-transform: uppercase;
+
+  list-style: none;
+
+  margin: 0.55rem;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+  }
+}
