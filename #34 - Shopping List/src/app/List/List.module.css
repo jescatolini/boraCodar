@@ -1,0 +1,112 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.boxItem {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  max-width: 45rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--base-gray-300, #252529);
+  background: var(--base-gray-400, #17171a);
+}
+
+.scratchedBoxItem {
+  filter: opacity(65%);
+}
+
+.checkboxItem {
+  display: flex;
+  gap: 1rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  color: var(--base-gray-100, #fbf9fe);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 1.1375rem */
+}
+
+.quantityAndUnity {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.quantity {
+  color: var(--base-gray-200, #afabb6);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 0.975rem */
+}
+
+.unity {
+  color: var(--base-gray-200, #afabb6);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 0.975rem */
+}
+
+.typeAndPlus {
+  display: flex;
+  align-items: center;
+}
+
+.scratched {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.about {
+  cursor: pointer;
+}
+
+.deleteConfirmation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: red;
+}
+
+.deleteButton {
+  text-align: center;
+  max-width: 4rem;
+  background-color: var(--produto-purple-dark);
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.5rem;
+
+  color: var(--base-gray-100, #fbf9fe);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  filter: brightness(130%);
+}
