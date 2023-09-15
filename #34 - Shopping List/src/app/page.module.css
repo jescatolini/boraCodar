@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.5rem 25.5rem 0rem 25.5rem;
+}
+
+.title {
+  color: var(--base-gray-100, #fbf9fe);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 1.5rem */
+  letter-spacing: 0.045rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .main {
+    padding: 5.5rem 5rem 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .title {
+    text-align: center;
+  }
+}
